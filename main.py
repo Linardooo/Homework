@@ -1,4 +1,8 @@
+"""Docstrings"""
+
+
 def main():
+    """Function"""
     print("Hello world!")
 
 
