@@ -14,7 +14,7 @@ while s == "":
 
 g = "Ivanou Ivan"
 g = g.split(" ")
-    print(g[1],g[0])
+    print(g[1], g[0])
 
 # Задание №4
 
