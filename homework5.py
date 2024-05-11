@@ -1,12 +1,12 @@
 # 1
 a = "www.my_site.com#about"
-print(a.replace("#", "/")
+print(a.replace("#", " / ")
 
 # 2
 s = ""
 while s == "":
     s = input()
-    print(s+"ing");
+    print(s + "ing");
 
 # 3
 g = "Ivanou Ivan"
