@@ -1,7 +1,7 @@
 # Задание №1
 
 a = "www.my_site.com#about"
-    print(a.replace("#", " / ")
+     print(a.replace("#", " / ")
 
 # Задание №2
 
