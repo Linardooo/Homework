@@ -13,9 +13,9 @@ while S == "":
 print(S + "ing")
 
 # В строке “Ivanou Ivan” поменяйте естами слова => "Ivan Ivanou"
-Name_str = str("Ivanou Ivan")
-Name_str = Name_str.split(" ")
-print(Name_str[1], Name_str[0])
+Name_str = "Ivanou Ivan"
+Name_list = Name_str.split(" ")
+print(Name_list[1], Name_list[0])
 
 # Напишите программу которая удаляет пробел в начале, в конце строки
 text = " multiple statements found "
