@@ -14,7 +14,7 @@ print(S + "ing")
 
 # В строке “Ivanou Ivan” поменяйте естами слова => "Ivan Ivanou"
 namelastname = "Ivanou Ivan"
-namelastname = namelastname.split(" ")
+namelastname = namelastname.str.split(" ")
 print(namelastname[1], namelastname[0])
 
 # Напишите программу которая удаляет пробел в начале, в конце строки
