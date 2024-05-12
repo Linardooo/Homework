@@ -2,21 +2,21 @@
 в строке 'www.my_site.com#about'
 """
 
-a = "www.my_site.com#about"
-print(a.replace("#", "/"))
+A = "www.my_site.com#about"
+print(A.replace("#", "/"))
 
 """Напишите программу, которая добавляет ‘ing’ к словам"""
 
-s = ""
-while s == "":
-    s = input()
-print(s + "ing")
+S = ""
+while S == "":
+    S = input()
+print(S + "ing")
 
 """В строке “Ivanou Ivan” поменяйте местами слова => "Ivan Ivanou" """
 
-g = "Ivanou Ivan"
-g = g.split(" ")
-print(g[1], g[0])
+name_lastname = "Ivanou Ivan"
+name_lastname = name_lastname.split(" ")
+print(name_lastname[1], name_lastname[0])
 
 """Напишите программу которая удаляет пробел в начале, в конце строки"""
 
