@@ -8,7 +8,7 @@ lista = A.split()
 print(type(lista))
 print(lista)
 
-# "I love arrays they are my favorite" => 
+# "I love arrays they are my favorite" =>
 # ["I", "love", "arrays", "they", "are", "my", "favorite"]
 TEXT = "I love arrays they are my favorite"
 listb = TEXT.split()
