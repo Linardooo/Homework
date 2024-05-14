@@ -26,4 +26,3 @@ print(TEXT.strip())
 # чтобы оно соответствовало этому утверждению. "pARiS" >> "Paris"
 NAME = "vasya petya kolya dima maksim anton makar"
 print(NAME.title())
-
