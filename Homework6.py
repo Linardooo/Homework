@@ -1,4 +1,4 @@
-"""homework 6
+"""Homework 6 14.05.2024
 Murashko Maksim Yurevich
 Python automatic tester course"""
 
