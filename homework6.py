@@ -18,11 +18,10 @@ print(listb)
 # Дан список: [Ivan, Ivanou], и 2 строки: Minsk, Belarus
 # Напечатайте текст: “Привет, Ivan Ivanou! Добро пожаловать в Minsk Belarus”
 X = "Привет, {} {}! Добро пожаловать в {} {}"
-Onelist = ["Ivan", "Ivanou"]
+Olist = ["Ivan", "Ivanou"]
 TOWN = "Minsk"
 COUNTRY = "Belarus"
-print(f"Привет, {Onelist[0]} {Onelist[1]}! Добро пожаловать в {TOWN} {COUNTRY}"
-     )
+print(f"Привет, {Olist[0]} {Olist[1]}! Добро пожаловать в {TOWN} {COUNTRY}")
 
 # Дан список ["I", "love", "arrays", "they", "are", "my", "favorite"]
 # сделайте из него строку => "I love arrays they are my favorite"
@@ -31,8 +30,7 @@ print(' '.join(New_list))
 
 # Создайте список из 10 элементов, вставьте на 3-ю позицию новое значение,
 # удалите элемент из списка под индексом 6
-NATURE = ["Derevo", "More", "Listok", "Trava", "Cveti", 
-          "Nebo", "Gribi", "Kusti", "Gori", "Tuchi"]
+NATURE = ["Der", "2", "List", "3", "Cveti", "Nebo", "Grib", "12", "1", "3"]
 NATURE[3] = "Solnce"
 NATURE.pop(6)
 print(NATURE)
