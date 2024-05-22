@@ -1,5 +1,5 @@
 """Additional homework
-Maksim Murashko 
+Maksim Murashko
 Automatic python tester course"""
 
 # 1. Однажды ночью вы отправляетесь кататься на мотоцикле.
