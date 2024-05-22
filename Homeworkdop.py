@@ -21,8 +21,8 @@ Automatic python tester course"""
 
 print("Задание №1.")
 t1 = int(input("Введите колличество минут: "))
-a = (t1 // 60)
-b = (t1 % 60)
+a = t1 // 60
+b = t1 % 60
 print(f"Результат {a:02}:{b:02}")
 
 # 2 Вы играете в ролевую игру.
@@ -39,16 +39,18 @@ print(f"Результат {a:02}:{b:02}")
 # убийства монстра.
 #
 # Пример:
-# Для experience = 10, threshold = 15, и reward = 5, результат должен быть: true
-# Для experience = 10, threshold = 15, и reward = 4, результат должен быть: false
+# Для experience = 10, threshold = 15, и reward = 5,
+# результат должен быть: true
+# Для experience = 10, threshold = 15, и reward = 4,
+# результат должен быть: false
 
-experience = 10
-threshold = 15
-reward = [5, 4]
-for i in reward:
-    experience = 10
-    experience = experience + i
-    if experience >= threshold:
+Experience = 10
+Threshold = 15
+Reward = [5, 4]
+for i in Reward:
+    Experience = 10
+    Experience = Experience + i
+    if Experience >= Threshold:
         print("Задание №2:")
         print(f'experience = 10, threshold = 15, и reward = {i} -', True)
     else:
