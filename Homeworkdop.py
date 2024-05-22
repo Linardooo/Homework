@@ -1,5 +1,5 @@
 """Additional homework
-Maksim Murashko
+Maksim Murashko 
 Automatic python tester course"""
 
 # 1. Однажды ночью вы отправляетесь кататься на мотоцикле.
@@ -44,13 +44,13 @@ print(f"Результат {a:02}:{b:02}")
 # Для experience = 10, threshold = 15, и reward = 4,
 # результат должен быть: false
 
-Experience = 10
-Threshold = 15
-Reward = [5, 4]
-for i in Reward:
-    Experience = 10
-    Experience = Experience + i
-    if Experience >= Threshold:
+EXPERIENCE = 10
+THRESHOLD = 15
+REWARD = [5, 4]
+for i in REWARD:
+    EXPERIENCE = 10
+    EXPERIENCE = EXPERIENCE + i
+    if EXPERIENCE >= THRESHOLD:
         print("Задание №2:")
         print(f'experience = 10, threshold = 15, и reward = {i} -', True)
     else:
@@ -79,7 +79,7 @@ for i in range(a):
         if a == b:
             print(False)
             break
-        elif a > b:
+        if a > b:
             print(True)
             break
     break
